@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity{
 
     public void findWeather(View view) {
 
+        //We need the API key....no account
         //Log.i("Location", locationEditText.getText().toString());
         DownloadTask task = new DownloadTask();
         //task.execute("http://api.openweathermap.org/data/2.5/weather?q=" + locationEditText.getText().toString());
